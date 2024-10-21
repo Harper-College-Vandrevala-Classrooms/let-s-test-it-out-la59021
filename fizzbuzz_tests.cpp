@@ -6,6 +6,7 @@
 using namespace std;
 
 TEST_CASE("Testing FizzBuzz") {
+    REQUIRE(fizzBuzz(0) == "FizzBuzz");
     REQUIRE(fizzBuzz(1) == "1");
     REQUIRE(fizzBuzz(2) == "2");
     REQUIRE(fizzBuzz(3) == "Fizz");
